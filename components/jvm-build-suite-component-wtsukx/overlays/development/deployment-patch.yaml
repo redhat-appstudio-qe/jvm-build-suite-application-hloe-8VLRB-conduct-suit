@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jvm-build-suite-component-wtsukx
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/jvm-build-hpje-tenant/jvm-build-suite-application-hloe/jvm-build-suite-component-wtsukx@sha256:7c83768386e11f95b9c011536767dfd9345948e881dad93e050b32e7bf90b747
+        name: hacbs-jvm-build-test-project
+        resources: {}
+status: {}
