@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-suite-component-wtsukx
     spec:
       containers:
-      - image: hacbs-jvm-build-test-project:latest
+      - image: quay.io/redhat-appstudio-qe/jvm-build-hpje-tenant/jvm-build-suite-application-hloe/jvm-build-suite-component-wtsukx@sha256:7c83768386e11f95b9c011536767dfd9345948e881dad93e050b32e7bf90b747
         name: hacbs-jvm-build-test-project
         ports:
         - containerPort: 8081
